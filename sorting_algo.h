@@ -2,8 +2,8 @@
 // Created by Matteo Cardinaletti on 10/01/23.
 //
 
-#ifndef SORTING_ALGO_SORTING_ALGO_H
-#define SORTING_ALGO_SORTING_ALGO_H
+#ifndef SORT_SEARCH_ALGO_SORTING_ALGO_H
+#define SORT_SEARCH_ALGO_SORTING_ALGO_H
 
 #include <stdlib.h>
 
@@ -151,4 +151,4 @@ void quick_sort(int array[], int left, int right) {
     quick_sort(array, left + 1, len);
 }
 
-#endif //SORTING_ALGO_SORTING_ALGO_H
+#endif //SORT_SEARCH_ALGO_SORTING_ALGO_H

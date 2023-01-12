@@ -2,8 +2,8 @@
 // Created by Matteo Cardinaletti on 11/01/23.
 //
 
-#ifndef SORTING_ALGO_LINKED_LIST_H
-#define SORTING_ALGO_LINKED_LIST_H
+#ifndef SORT_SEARCH_ALGO_LINKED_LIST_H
+#define SORT_SEARCH_ALGO_LINKED_LIST_H
 
 #include <stdlib.h>
 #include <stdbool.h>
@@ -174,4 +174,4 @@ bool l_ordered_insert(l_list **list, int value) {
     return true;
 }
 
-#endif //SORTING_ALGO_LINKED_LIST_H
+#endif //SORT_SEARCH_ALGO_LINKED_LIST_H

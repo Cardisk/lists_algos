@@ -2,8 +2,8 @@
 // Created by Matteo Cardinaletti on 11/01/23.
 //
 
-#ifndef SORTING_ALGO_AI_LIST_H
-#define SORTING_ALGO_AI_LIST_H
+#ifndef SORT_SEARCH_ALGO_AI_LIST_H
+#define SORT_SEARCH_ALGO_AI_LIST_H
 
 #include <stdlib.h>
 #include <stdbool.h>
@@ -198,4 +198,4 @@ bool ai_ordered_insert(ai_list *list, int value) {
 
 // search function is a simply sequential algorithm over the array, watch it on "searching-algo.h"
 
-#endif //SORTING_ALGO_AI_LIST_H
+#endif //SORT_SEARCH_ALGO_AI_LIST_H

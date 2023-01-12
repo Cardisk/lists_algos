@@ -2,8 +2,8 @@
 // Created by Matteo Cardinaletti on 10/01/23.
 //
 
-#ifndef SORTING_ALGO_SEARCHING_ALGO_H
-#define SORTING_ALGO_SEARCHING_ALGO_H
+#ifndef SORT_SEARCH_ALGO_SEARCHING_ALGO_H
+#define SORT_SEARCH_ALGO_SEARCHING_ALGO_H
 
 #include <stdbool.h>
 #include <math.h>
@@ -58,4 +58,4 @@ int jump_search(const int array[], const int length, const int target) {
     return -1;
 }
 
-#endif //SORTING_ALGO_SEARCHING_ALGO_H
+#endif //SORT_SEARCH_ALGO_SEARCHING_ALGO_H
